@@ -73,18 +73,6 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="99719AC0-AB2C-A499-3F37-91C977BF11D8" name="tb_estrutura_patio_id_patio_pk">
-<createdBy>vitor</createdBy>
-<createdTime>2025-04-27 20:33:54 UTC</createdTime>
-<generatorID>989496B6-DE44-39A1-63AD-E4B9D15D6FDB</generatorID>
-<ownerDesignName>modelagem_c#</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="CDC73B6F-A33A-CF92-1A50-B4FE47353840"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="6EA17CCB-7135-CFEF-F432-BDE87C799DC1" name="tb_estrutura_patio_id_patio_fk">
 <createdBy>vitor</createdBy>
 <createdTime>2025-04-27 20:33:54 UTC</createdTime>
