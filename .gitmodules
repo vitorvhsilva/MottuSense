@@ -1,0 +1,9 @@
+[submodule "MottuSense-dotNet"]
+	path = MottuSense-dotNet
+	url = https://github.com/vitorvhsilva/MottuSense-dotNet
+[submodule "MottuSense-Java"]
+	path = MottuSense-Java
+	url = https://github.com/vitorvhsilva/MottuSense-Java
+[submodule "MottuSense-ReactNative"]
+	path = MottuSense-ReactNative
+	url = https://github.com/vitorvhsilva/MottuSense-ReactNative
