@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="3D35CF8D-3089-8C8A-A959-67A6A799D7F4" name="TB_PATIO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="19D0C238-1FDB-2A7D-DD8A-4731FDC9787D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="C7E3AE19-F0A7-486E-1720-DE07A55D1114" name="TB_MOTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="19D0C238-1FDB-2A7D-DD8A-4731FDC9787D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="431B72E2-F63D-AE01-4B74-B16EEC3F74FF" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="19D0C238-1FDB-2A7D-DD8A-4731FDC9787D" propertySourceId="3D35CF8D-3089-8C8A-A959-67A6A799D7F4" propertyTargetId="C7E3AE19-F0A7-486E-1720-DE07A55D1114"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

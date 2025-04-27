@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C490E11-82B4-D8CD-357A-77D64B4EE8B9" name="TB_LOCALIZACAO">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 03:53:23 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_filial" id="ECA2C8D4-8063-76B3-0716-EEE7CB3678BD">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 03:53:33 UTC</createdTime>
+<generatorID>B9340F30-2578-4383-45AF-31AA7E944625</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<referedAttribute>F20DD3BD-CC70-C0B4-9A54-D905E1E23E5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="58FA6E19-B604-46DD-4BBF-3A00433B606E">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 03:53:40 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitude" id="8E22BB46-3FC7-C6F6-11C8-F5054D5119D5">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 03:53:54 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7CA1EBE-B10F-913B-80B6-9D93BC98F459" name="TB_LOCALIZACAO PK">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 03:53:38 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECA2C8D4-8063-76B3-0716-EEE7CB3678BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

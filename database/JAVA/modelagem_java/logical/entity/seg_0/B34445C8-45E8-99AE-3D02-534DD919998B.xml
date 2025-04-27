@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B34445C8-45E8-99AE-3D02-534DD919998B" name="TB_USUARIO">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 03:18:44 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="FD687ADC-D284-90EE-A3CE-2DF2319AFD15">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 03:19:03 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_usuario" id="63C30699-E2AE-FEC8-8264-0715DF89CC08">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 03:19:35 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_usuario" id="4EF9E088-E795-4AA2-3793-BD3C455216B3">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 03:19:42 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha_usuario" id="2EA6DFB7-AA2F-21EF-E3F6-9F6D0129EC85">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 03:19:54 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_criacao_usuario" id="14BDB3E3-C2F1-3189-7F90-9943D1DEFD31">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 03:20:25 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5F9B77F-24EF-1328-2B76-AAD130EB5DDB" name="TB_USUARIO PK">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 03:21:37 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD687ADC-D284-90EE-A3CE-2DF2319AFD15</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

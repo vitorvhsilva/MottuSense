@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D35CF8D-3089-8C8A-A959-67A6A799D7F4" name="TB_PATIO">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 04:02:03 UTC</createdTime>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<engineerTo>
+<item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_patio" id="43337979-B942-1D55-1F22-6EFE8C58AA13">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 04:02:09 UTC</createdTime>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<engineerTo>
+<item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_filial" id="E9625D83-EB8E-9122-0DF2-88D0351B8310">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 04:02:14 UTC</createdTime>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<engineerTo>
+<item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1673C349-434E-1314-CB01-43D978E8C9F9" name="TB_PATIO PK">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-20 04:02:31 UTC</createdTime>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<engineerTo>
+<item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43337979-B942-1D55-1F22-6EFE8C58AA13</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
