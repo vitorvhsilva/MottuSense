@@ -4,7 +4,7 @@
 <createdTime>2025-04-27 19:58:42 UTC</createdTime>
 <ownerDesignName>modelagem_c#</ownerDesignName>
 <engineerTo>
-<item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
+<item key="7946CC3E-9075-6CE5-59DF-8CBAB38F0921" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <generatorID>3A13A196-88F1-0C9C-CA7F-8CA5957D7972</generatorID>
 <ownerDesignName>modelagem_c#</ownerDesignName>
 <engineerTo>
-<item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
+<item key="7946CC3E-9075-6CE5-59DF-8CBAB38F0921" value="true"/>
 </engineerTo>
 <referedAttribute>B3667997-618C-D80E-108C-D24E3622DA06</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,7 +34,7 @@
 <createdTime>2025-04-27 19:59:51 UTC</createdTime>
 <ownerDesignName>modelagem_c#</ownerDesignName>
 <engineerTo>
-<item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
+<item key="7946CC3E-9075-6CE5-59DF-8CBAB38F0921" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,13 +47,40 @@
 <createdTime>2025-04-27 20:00:14 UTC</createdTime>
 <ownerDesignName>modelagem_c#</ownerDesignName>
 <engineerTo>
-<item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
+<item key="7946CC3E-9075-6CE5-59DF-8CBAB38F0921" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_hora_evento" id="65EA534A-53DC-87A8-02CF-774EA7C8A766">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 21:26:52 UTC</createdTime>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<engineerTo>
+<item key="7946CC3E-9075-6CE5-59DF-8CBAB38F0921" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visualizado_evento" id="14221E4C-6657-B5DB-8E79-4D63118F5FA2">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 21:29:04 UTC</createdTime>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<engineerTo>
+<item key="7946CC3E-9075-6CE5-59DF-8CBAB38F0921" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>
