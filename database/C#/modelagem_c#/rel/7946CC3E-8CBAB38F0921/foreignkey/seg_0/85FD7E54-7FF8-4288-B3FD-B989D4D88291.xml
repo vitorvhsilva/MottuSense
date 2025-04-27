@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="85FD7E54-7FF8-4288-B3FD-B989D4D88291" containerWithKeyObject="5FED74FA-DE7A-768C-0C39-FAAAEC625261" localFKIndex="FBDC8DC9-89F1-6B6A-9204-691A844C9088" name="tb_localizacao_moto_id_moto_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>DCFDB80E-2C8F-7999-ADF1-CB943D3ADC34</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<referredTableLongName>TB_MOTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>81E295BB-5CCD-386D-DEC3-A8A16D83AB7D</referredTableID>
+<keyObject>DAAE0FED-0D7D-5390-753E-D206B8FFE00E</keyObject>
+<referredKeyID>DAAE0FED-0D7D-5390-753E-D206B8FFE00E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_moto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

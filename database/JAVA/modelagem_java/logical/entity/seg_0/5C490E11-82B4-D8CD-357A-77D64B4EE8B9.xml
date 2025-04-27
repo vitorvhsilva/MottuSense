@@ -29,9 +29,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="latitude" id="58FA6E19-B604-46DD-4BBF-3A00433B606E">
+<Attribute name="cep_localizacao" id="87E513BC-AE1C-6CD2-79CF-7EC10B67765A">
 <createdBy>vitor</createdBy>
-<createdTime>2025-04-20 03:53:40 UTC</createdTime>
+<createdTime>2025-04-27 19:47:42 UTC</createdTime>
 <ownerDesignName>modelagem_java</ownerDesignName>
 <engineerTo>
 <item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
@@ -42,9 +42,48 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="longitude" id="8E22BB46-3FC7-C6F6-11C8-F5054D5119D5">
+<Attribute name="logradouro_localizacao" id="DCE94980-634E-5B20-2DCD-61847A4EAE94">
 <createdBy>vitor</createdBy>
-<createdTime>2025-04-20 03:53:54 UTC</createdTime>
+<createdTime>2025-04-27 19:56:56 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro_localizacao" id="F6E59C3B-7A69-9592-093A-9DC06907B494">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 19:56:06 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_localizacao" id="30D21991-9957-69F8-0222-6955170C6D18">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 19:56:14 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="regiao_localizacao" id="74669735-BDF2-0641-4474-6600E23EC899">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 19:57:20 UTC</createdTime>
 <ownerDesignName>modelagem_java</ownerDesignName>
 <engineerTo>
 <item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>

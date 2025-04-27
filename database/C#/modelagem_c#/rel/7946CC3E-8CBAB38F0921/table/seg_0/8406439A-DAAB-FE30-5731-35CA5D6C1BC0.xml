@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8406439A-DAAB-FE30-5731-35CA5D6C1BC0" name="TB_ESTRUTURA_PATIO">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>4AC24234-73BD-6BF4-B8D1-9C6D8F9B7638</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_patio" id="CDC73B6F-A33A-CF92-1A50-B4FE47353840">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>BF5A8B58-78DA-B3D0-05F1-CDE55823E2F7</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08F84D22-3866-556E-638C-E589B12CCAB0" referredColumn="4E539D21-EF9F-861D-E51D-4A69F81CEFD2"/>
+</associations>
+</Column>
+<Column name="coordenada_x_estrutura" id="C2086B77-625B-D503-7A19-C78D258C7101">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>7E094C35-073F-EB14-644B-D593B4D2D50F</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="coordenada_y_estrutura" id="42406F80-8BFF-F01A-9FA2-659EA258A330">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>9B1A9EDC-5C70-A4E1-5447-F4C7B062043A</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tamanho_estrutura" id="62F6359E-DF6D-F935-FD73-DC1318472CA1">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>B77B8BA3-7934-8F60-0231-2601FB03AB77</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rotacao_estrutura" id="6D714003-CDDB-DED5-BDA9-D0065C0445A5">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>5CE65FEA-5847-2D70-74DB-30D8EF973265</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99719AC0-AB2C-A499-3F37-91C977BF11D8" name="tb_estrutura_patio_id_patio_pk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>989496B6-DE44-39A1-63AD-E4B9D15D6FDB</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDC73B6F-A33A-CF92-1A50-B4FE47353840"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EA17CCB-7135-CFEF-F432-BDE87C799DC1" name="tb_estrutura_patio_id_patio_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>149EBC4C-7DD0-3E65-28D7-A35B5F2F2088</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDC73B6F-A33A-CF92-1A50-B4FE47353840"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

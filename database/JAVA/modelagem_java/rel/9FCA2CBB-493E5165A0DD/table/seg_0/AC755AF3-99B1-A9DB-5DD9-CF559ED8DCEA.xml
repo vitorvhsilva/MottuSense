@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC755AF3-99B1-A9DB-5DD9-CF559ED8DCEA" name="TB_USUARIO">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>B34445C8-45E8-99AE-3D02-534DD919998B</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="9F9642C5-6395-E136-84A1-DF592A9E3DCF">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>FD687ADC-D284-90EE-A3CE-2DF2319AFD15</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_usuario" id="7D98F7DD-9C07-221D-C8BD-801BCA53A735">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>63C30699-E2AE-FEC8-8264-0715DF89CC08</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_usuario" id="C1F6DC7D-856F-940E-AF9C-DD635C200383">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>5C56841A-E421-BBC0-49D9-860533A983AA</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_usuario" id="64C5AF6B-7973-DD8A-1B5C-39B27502A994">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>60FAC6A4-BF40-3EA5-49BD-CB33BAC79447</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_usuario" id="8D59F82E-3A00-E16D-7993-91D07F487011">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>4EF9E088-E795-4AA2-3793-BD3C455216B3</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha_usuario" id="472046B8-7D95-C74D-BF37-EDE96C3031C6">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>2EA6DFB7-AA2F-21EF-E3F6-9F6D0129EC85</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="link_foto_usuario" id="5B40B3EB-3F95-3C80-72C1-359CCA825E49">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>4470FFDF-64E2-4AD9-8C0E-FD2098BC7B73</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento_usuario" id="259A20C4-FD37-5491-C2F9-5E76D0B5A764">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>7FF8761B-05CA-6356-31E8-DF162FBDEA3A</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_criacao_usuario" id="FA38806E-DE56-B8DC-4355-FB8392350D22">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>14BDB3E3-C2F1-3189-7F90-9943D1DEFD31</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="295618E7-241F-C710-636A-E6D44F7C486F" name="tb_usuario_id_usuario_pk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>E5F9B77F-24EF-1328-2B76-AAD130EB5DDB</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F9642C5-6395-E136-84A1-DF592A9E3DCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -299,7 +299,7 @@
 	<engineering_params>
 		<delete_without_origin value="false"/>
 		<engineer_coordinates value="true"/>
-		<engineer_generated value="false"/>
+		<engineer_generated value="true"/>
 		<show_engineering_intree value="false"/>
 		<apply_naming_std value="true"/>
 		<use_pref_abbreviation value="true"/>
@@ -391,7 +391,7 @@
 	<model_compare_storage_props_filter>
 	</model_compare_storage_props_filter>
 	<naming_options>
-		<model_options objectid="52983C8C-7759-325A-DE8B-9E4E549501E0">
+		<model_options objectid="7946CC3E-9075-6CE5-59DF-8CBAB38F0921">
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />

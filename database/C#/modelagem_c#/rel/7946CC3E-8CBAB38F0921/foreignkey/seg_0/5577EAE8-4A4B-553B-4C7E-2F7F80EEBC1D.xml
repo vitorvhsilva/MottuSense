@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5577EAE8-4A4B-553B-4C7E-2F7F80EEBC1D" containerWithKeyObject="81E295BB-5CCD-386D-DEC3-A8A16D83AB7D" localFKIndex="E79D5413-1395-ADEA-0DD0-40315DCA981F" name="tb_moto_id_patio_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>431B72E2-F63D-AE01-4B74-B16EEC3F74FF</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<referredTableLongName>TB_PATIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28F7033C-0E0C-FF51-C217-2BF8A5EC2813</referredTableID>
+<keyObject>D27C6ED4-BF6D-B084-5FFC-04CEF1F72EF0</keyObject>
+<referredKeyID>D27C6ED4-BF6D-B084-5FFC-04CEF1F72EF0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_patio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

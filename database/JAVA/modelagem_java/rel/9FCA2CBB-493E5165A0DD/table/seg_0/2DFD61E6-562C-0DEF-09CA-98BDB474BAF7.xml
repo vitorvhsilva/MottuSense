@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DFD61E6-562C-0DEF-09CA-98BDB474BAF7" name="TB_LOCALIZACAO">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>5C490E11-82B4-D8CD-357A-77D64B4EE8B9</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_filial" id="60A7C6B0-82DC-992E-967F-B2C3AB35CBF6">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>ECA2C8D4-8063-76B3-0716-EEE7CB3678BD</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8815905D-9B2D-15F0-EBA6-42AAE4874985" referredColumn="FA1D3882-5B90-83D6-8CA6-350A690AFF60"/>
+</associations>
+</Column>
+<Column name="cep_localizacao" id="AC2E8C76-D095-E70D-618A-FC0B1D9232DF">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>87E513BC-AE1C-6CD2-79CF-7EC10B67765A</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouro_localizacao" id="5D1F0B08-E21E-AEDE-2A9F-E59D0DF6DE0E">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>DCE94980-634E-5B20-2DCD-61847A4EAE94</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro_localizacao" id="F47FA362-02F0-40A9-DC25-610E0749A142">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>F6E59C3B-7A69-9592-093A-9DC06907B494</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_localizacao" id="0272D4A1-6A7E-084A-69E0-09EAF1ABE568">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>30D21991-9957-69F8-0222-6955170C6D18</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regiao_localizacao" id="77E5F49B-9100-C17B-8AA7-E7A86FEDC938">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>74669735-BDF2-0641-4474-6600E23EC899</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C47049A2-C925-3D2A-2615-1748D134974B" name="tb_localizacao_id_filial_pk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>D7CA1EBE-B10F-913B-80B6-9D93BC98F459</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60A7C6B0-82DC-992E-967F-B2C3AB35CBF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D19B64C7-206E-832D-0EAC-78D2B8F2B9BE" name="tb_localizacao_id_filial_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>B9340F30-2578-4383-45AF-31AA7E944625</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60A7C6B0-82DC-992E-967F-B2C3AB35CBF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

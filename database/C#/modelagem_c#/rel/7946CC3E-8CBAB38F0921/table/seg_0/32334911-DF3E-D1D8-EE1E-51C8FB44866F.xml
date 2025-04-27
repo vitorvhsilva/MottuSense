@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32334911-DF3E-D1D8-EE1E-51C8FB44866F" name="TB_EVENTO">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>ABCEEE04-28D4-DEDA-0583-45008678DA83</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_moto" id="AF09F91A-0244-6606-F4A6-B48634293385">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>CC894E12-AE00-80A0-0A4D-67373CEF5E1E</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B757485D-CF98-5C65-7921-CBCE9F5E79C1" referredColumn="4F9C6A3A-6105-AE57-11DE-75B001FA041A"/>
+</associations>
+</Column>
+<Column name="descricao_evento" id="4C881274-8012-4FD6-ECAF-26BCC75BE56A">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>8DED2A4E-BA22-7A5A-48BA-944059A411B4</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cor_evento" id="5AE332C3-D8B2-0928-C914-BDDABC5D02BF">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>AF2A573F-12C4-8494-FB04-C97F7C897FBA</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA26A3B2-CB1F-B1ED-FA3B-B18F240F8357" name="tb_evento_id_moto_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>3A13A196-88F1-0C9C-CA7F-8CA5957D7972</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF09F91A-0244-6606-F4A6-B48634293385"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

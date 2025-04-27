@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC1A6ABB-3104-9FDF-A3A9-E5C3B8081ADA" name="TB_CONFIGURACAO_USUARIO">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>AAC1F48A-54E7-1CDA-4A75-24D14DD21126</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="3D153A4E-EC2D-1844-A12A-8091D7FFEAFD">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>F0C4B303-563D-D05D-C294-61F1DFE5B501</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="593CE094-3E39-604A-F9ED-9F6C83EB0E02" referredColumn="9F9642C5-6395-E136-84A1-DF592A9E3DCF"/>
+</associations>
+</Column>
+<Column name="alerta_moto_entrar_patio" id="DA5EA844-1047-6455-001A-88783FAA9268">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>18883619-CAE8-453C-8408-70AAEF79740B</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alerta_moto_sair_patio" id="18469838-694C-863F-41C4-7FDDD0206E9D">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>3220C4ED-3E68-2264-26C1-EDDB44DE15F3</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alerta_moto_chegar_sem_placa" id="F2325EA3-C001-E2CB-35BD-FE8CDABCF887">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>7BAF3E31-9FC1-666C-7BC8-DA717F09079F</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alerta_moto_precisa_manutencao" id="907F9BA3-1CE5-E777-6809-82D4DF744EED">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>5005DAFE-F9FD-4671-B469-BBFB129390E8</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alerta_moto_preparada_alugada" id="4173B2C0-D762-261A-4A96-FBB19DA7EFF3">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>04BBF106-849C-B351-C3D4-A071C932C217</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="282DF98F-3381-6DAB-8A41-E1DC6A4DBED3" name="tb_configuracao_usuario_id_usuario_pk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>05486803-7C11-087A-0C3D-C659200B5007</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D153A4E-EC2D-1844-A12A-8091D7FFEAFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0881FE9-4C4C-2AC8-B665-0B355C21F24E" name="tb_configuracao_usuario_id_usuario_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>D3A54221-C160-516A-A5FE-2CD658B4105B</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D153A4E-EC2D-1844-A12A-8091D7FFEAFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

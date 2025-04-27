@@ -4,7 +4,7 @@
 <createdTime>2025-04-20 03:21:01 UTC</createdTime>
 <ownerDesignName>modelagem_java</ownerDesignName>
 <engineerTo>
-<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+<item key="9FCA2CBB-084F-06A4-9CB5-493E5165A0DD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <generatorID>D3A54221-C160-516A-A5FE-2CD658B4105B</generatorID>
 <ownerDesignName>modelagem_java</ownerDesignName>
 <engineerTo>
-<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+<item key="9FCA2CBB-084F-06A4-9CB5-493E5165A0DD" value="true"/>
 </engineerTo>
 <referedAttribute>FD687ADC-D284-90EE-A3CE-2DF2319AFD15</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -29,12 +29,68 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="receber_alertas" id="18883619-CAE8-453C-8408-70AAEF79740B">
+<Attribute name="alerta_moto_entrar_patio" id="18883619-CAE8-453C-8408-70AAEF79740B">
 <createdBy>vitor</createdBy>
 <createdTime>2025-04-20 03:22:06 UTC</createdTime>
 <ownerDesignName>modelagem_java</ownerDesignName>
 <engineerTo>
-<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+<item key="9FCA2CBB-084F-06A4-9CB5-493E5165A0DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alerta_moto_sair_patio" id="3220C4ED-3E68-2264-26C1-EDDB44DE15F3">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 19:46:33 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="9FCA2CBB-084F-06A4-9CB5-493E5165A0DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alerta_moto_chegar_sem_placa" id="7BAF3E31-9FC1-666C-7BC8-DA717F09079F">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 19:46:47 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="9FCA2CBB-084F-06A4-9CB5-493E5165A0DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alerta_moto_precisa_manutencao" id="5005DAFE-F9FD-4671-B469-BBFB129390E8">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 19:47:04 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="9FCA2CBB-084F-06A4-9CB5-493E5165A0DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alerta_moto_preparada_alugada" id="04BBF106-849C-B351-C3D4-A071C932C217">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 19:47:13 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="9FCA2CBB-084F-06A4-9CB5-493E5165A0DD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,7 +106,7 @@
 <createdTime>2025-04-20 03:21:53 UTC</createdTime>
 <ownerDesignName>modelagem_java</ownerDesignName>
 <engineerTo>
-<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+<item key="9FCA2CBB-084F-06A4-9CB5-493E5165A0DD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

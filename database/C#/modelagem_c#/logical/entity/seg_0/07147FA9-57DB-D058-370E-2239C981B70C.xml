@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D35CF8D-3089-8C8A-A959-67A6A799D7F4" name="TB_PATIO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07147FA9-57DB-D058-370E-2239C981B70C" name="TB_LOCALIZACAO_MOTO">
 <createdBy>vitor</createdBy>
-<createdTime>2025-04-20 04:02:03 UTC</createdTime>
+<createdTime>2025-04-27 20:00:46 UTC</createdTime>
 <ownerDesignName>modelagem_c#</ownerDesignName>
 <engineerTo>
 <item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
@@ -15,21 +15,23 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_patio" id="43337979-B942-1D55-1F22-6EFE8C58AA13">
+<Attribute name="id_moto" id="4BCC35CE-4046-2054-7B12-4A9259856D41">
 <createdBy>vitor</createdBy>
-<createdTime>2025-04-20 04:02:09 UTC</createdTime>
+<createdTime>2025-04-27 20:00:59 UTC</createdTime>
+<generatorID>DCFDB80E-2C8F-7999-ADF1-CB943D3ADC34</generatorID>
 <ownerDesignName>modelagem_c#</ownerDesignName>
 <engineerTo>
 <item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
 </engineerTo>
+<referedAttribute>B3667997-618C-D80E-108C-D24E3622DA06</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_filial" id="E9625D83-EB8E-9122-0DF2-88D0351B8310">
+<Attribute name="latitude_moto" id="0D1DDB21-4427-7F63-E15D-DD76F9C37517">
 <createdBy>vitor</createdBy>
-<createdTime>2025-04-20 04:02:14 UTC</createdTime>
+<createdTime>2025-04-27 20:01:02 UTC</createdTime>
 <ownerDesignName>modelagem_c#</ownerDesignName>
 <engineerTo>
 <item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
@@ -40,9 +42,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="estrutura_criada_patio" id="0E527D4B-7ECE-94BE-6844-3D4DD08403FF">
+<Attribute name="longitude_moto" id="F6EE7DE4-C2A3-70A7-4A6F-6C2BE9DD0CE7">
 <createdBy>vitor</createdBy>
-<createdTime>2025-04-27 20:29:57 UTC</createdTime>
+<createdTime>2025-04-27 20:01:16 UTC</createdTime>
 <ownerDesignName>modelagem_c#</ownerDesignName>
 <engineerTo>
 <item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
@@ -50,23 +52,8 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1673C349-434E-1314-CB01-43D978E8C9F9" name="TB_PATIO PK">
-<createdBy>vitor</createdBy>
-<createdTime>2025-04-20 04:02:31 UTC</createdTime>
-<ownerDesignName>modelagem_c#</ownerDesignName>
-<engineerTo>
-<item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>43337979-B942-1D55-1F22-6EFE8C58AA13</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E51C51E-D8FE-5F97-1246-DE2F84A6C3AA" name="TB_FILIAL">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>F85D8E42-F600-B8D0-7015-476794868D78</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_filial" id="FA1D3882-5B90-83D6-8CA6-350A690AFF60">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>F20DD3BD-CC70-C0B4-9A54-D905E1E23E5E</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_filial" id="AF5A7841-6FCD-5C3B-B2E6-ACD520ED33D3">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>D1EA87C9-7D5C-5A1B-1416-CB23E5133E2B</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6426CCD-3414-4EF7-62DA-D6FF79A75556" name="tb_filial_id_filial_pk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>B4D5B561-F0A8-62AE-9F7F-A277F0C9A453</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA1D3882-5B90-83D6-8CA6-350A690AFF60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

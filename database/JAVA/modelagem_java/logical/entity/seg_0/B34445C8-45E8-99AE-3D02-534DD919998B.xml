@@ -40,6 +40,32 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cpf_usuario" id="5C56841A-E421-BBC0-49D9-860533A983AA">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 19:44:43 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone_usuario" id="60FAC6A4-BF40-3EA5-49BD-CB33BAC79447">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 19:45:19 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="email_usuario" id="4EF9E088-E795-4AA2-3793-BD3C455216B3">
 <createdBy>vitor</createdBy>
 <createdTime>2025-04-20 03:19:42 UTC</createdTime>
@@ -64,6 +90,32 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="link_foto_usuario" id="4470FFDF-64E2-4AD9-8C0E-FD2098BC7B73">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:31:36 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento_usuario" id="7FF8761B-05CA-6356-31E8-DF162FBDEA3A">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 19:45:41 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="data_criacao_usuario" id="14BDB3E3-C2F1-3189-7F90-9943D1DEFD31">

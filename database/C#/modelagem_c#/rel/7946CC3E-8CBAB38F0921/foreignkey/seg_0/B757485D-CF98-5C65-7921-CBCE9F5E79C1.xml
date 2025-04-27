@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B757485D-CF98-5C65-7921-CBCE9F5E79C1" containerWithKeyObject="32334911-DF3E-D1D8-EE1E-51C8FB44866F" localFKIndex="BA26A3B2-CB1F-B1ED-FA3B-B18F240F8357" name="tb_evento_id_moto_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>3A13A196-88F1-0C9C-CA7F-8CA5957D7972</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<referredTableLongName>TB_MOTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>81E295BB-5CCD-386D-DEC3-A8A16D83AB7D</referredTableID>
+<keyObject>DAAE0FED-0D7D-5390-753E-D206B8FFE00E</keyObject>
+<referredKeyID>DAAE0FED-0D7D-5390-753E-D206B8FFE00E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_moto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

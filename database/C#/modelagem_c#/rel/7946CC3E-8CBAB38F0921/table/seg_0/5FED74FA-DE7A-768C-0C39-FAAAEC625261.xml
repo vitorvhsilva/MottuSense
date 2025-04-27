@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FED74FA-DE7A-768C-0C39-FAAAEC625261" name="TB_LOCALIZACAO_MOTO">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>07147FA9-57DB-D058-370E-2239C981B70C</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_moto" id="F716A68F-BD2F-EE61-7DB2-589675EC6155">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>4BCC35CE-4046-2054-7B12-4A9259856D41</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85FD7E54-7FF8-4288-B3FD-B989D4D88291" referredColumn="4F9C6A3A-6105-AE57-11DE-75B001FA041A"/>
+</associations>
+</Column>
+<Column name="latitude_moto" id="6D65B19D-FB8A-08D9-4E3B-EFCB709ADBB5">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>0D1DDB21-4427-7F63-E15D-DD76F9C37517</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude_moto" id="E05A1E39-5545-8CB5-C868-628F0B3254B4">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>F6EE7DE4-C2A3-70A7-4A6F-6C2BE9DD0CE7</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBDC8DC9-89F1-6B6A-9204-691A844C9088" name="tb_localizacao_moto_id_moto_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>DCFDB80E-2C8F-7999-ADF1-CB943D3ADC34</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F716A68F-BD2F-EE61-7DB2-589675EC6155"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

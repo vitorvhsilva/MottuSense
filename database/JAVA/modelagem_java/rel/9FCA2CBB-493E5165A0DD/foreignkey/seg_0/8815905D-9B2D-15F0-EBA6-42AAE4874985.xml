@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8815905D-9B2D-15F0-EBA6-42AAE4874985" containerWithKeyObject="2DFD61E6-562C-0DEF-09CA-98BDB474BAF7" localFKIndex="D19B64C7-206E-832D-0EAC-78D2B8F2B9BE" name="tb_localizacao_id_filial_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:37:25 UTC</createdTime>
+<generatorID>B9340F30-2578-4383-45AF-31AA7E944625</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<referredTableLongName>TB_FILIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6E51C51E-D8FE-5F97-1246-DE2F84A6C3AA</referredTableID>
+<keyObject>E6426CCD-3414-4EF7-62DA-D6FF79A75556</keyObject>
+<referredKeyID>E6426CCD-3414-4EF7-62DA-D6FF79A75556</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_filial</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

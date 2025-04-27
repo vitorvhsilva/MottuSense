@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81E295BB-5CCD-386D-DEC3-A8A16D83AB7D" name="TB_MOTO">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>C7E3AE19-F0A7-486E-1720-DE07A55D1114</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_moto" id="4F9C6A3A-6105-AE57-11DE-75B001FA041A">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>B3667997-618C-D80E-108C-D24E3622DA06</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_patio" id="3887225D-C5A6-EC8A-FEF3-A607EF3E71DB">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>21563E21-9270-E242-E5E5-4C1E9DCE1612</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5577EAE8-4A4B-553B-4C7E-2F7F80EEBC1D" referredColumn="4E539D21-EF9F-861D-E51D-4A69F81CEFD2"/>
+</associations>
+</Column>
+<Column name="placa_moto" id="01205A79-FC3B-D0D8-034A-01DB976D5EB3">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>F83EC567-8AE6-69CB-1B76-6D8370F71D3B</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo_moto" id="7177EBEF-6CDE-7739-2D01-955E1B3D5BD5">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>669B42BA-F9B7-32C5-1B19-52763ED2717C</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_moto" id="05961F6F-C99E-456D-EAF2-306740A64583">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>FD79749A-AC3C-1325-DC57-A8EC5F890377</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="chassi_moto" id="4692B94C-9416-6A63-4EE1-136DABA10CFF">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>EC53ED6C-764C-C7D9-11EA-8E92FF243C23</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iot_moto" id="64DE526E-74CC-B28A-7C4B-5398C0C292E8">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>DF6B4BE4-BF35-39F8-FCB4-1BD9DF7BCA28</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAAE0FED-0D7D-5390-753E-D206B8FFE00E" name="tb_moto_id_moto_pk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>4E422E2B-4A42-6C43-B6E0-9C428F3CC359</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F9C6A3A-6105-AE57-11DE-75B001FA041A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E79D5413-1395-ADEA-0DD0-40315DCA981F" name="tb_moto_id_patio_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-04-27 20:33:54 UTC</createdTime>
+<generatorID>431B72E2-F63D-AE01-4B74-B16EEC3F74FF</generatorID>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3887225D-C5A6-EC8A-FEF3-A607EF3E71DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
