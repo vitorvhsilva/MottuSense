@@ -3,6 +3,7 @@ set serveroutput on;
 
 drop table TB_ESTRUTURA_PATIO cascade constraints;
 drop table TB_LOCALIZACAO_MOTO cascade constraints;
+drop table TB_EVENTO_MOTO cascade constraints;
 drop table TB_EVENTO cascade constraints;
 drop table TB_MOTO cascade constraints;
 drop table TB_PATIO cascade constraints;
@@ -40,12 +41,20 @@ create table TB_MOTO (
 );
 
 create table TB_EVENTO (
-    id_moto VARCHAR2(255),
+    id_evento VARCHAR2(255),
     descricao_evento VARCHAR2(255),
     cor_evento VARCHAR2(255),
+    CONSTRAINT tb_evento_id_evento_pk PRIMARY KEY (id_evento)
+);
+
+create table TB_EVENTO_MOTO (
+    id_moto VARCHAR2(255),
+    id_evento VARCHAR2(255),
     data_hora_evento TIMESTAMP,
     visualizado_evento NUMBER(1),
-    CONSTRAINT tb_evento_id_moto_fk FOREIGN KEY (id_moto)
+    CONSTRAINT tb_evento_moto_id_evento_fk FOREIGN KEY (id_evento)
+        REFERENCES TB_EVENTO(id_evento),
+    CONSTRAINT tb_evento_moto_id_moto_fk FOREIGN KEY (id_moto)
         REFERENCES TB_MOTO(id_moto)
 );
 
@@ -53,11 +62,11 @@ create table TB_LOCALIZACAO_MOTO (
     id_moto VARCHAR2(255),
     latitude_moto VARCHAR2(255),
     longitude_moto VARCHAR2(255),
+    CONSTRAINT tb_localizacao_moto_id_moto_pk PRIMARY KEY (id_moto),
     CONSTRAINT tb_localizacao_moto_id_moto_fk FOREIGN KEY (id_moto)
         REFERENCES TB_MOTO(id_moto)
 );
 
-//patios
 insert into TB_PATIO (id_patio, id_filial, estrutura_criada_patio) 
     values ('1', '1', 0);
     
@@ -74,7 +83,6 @@ insert into TB_PATIO (id_patio, id_filial, estrutura_criada_patio)
     values ('5', '5', 1);
 
 
-//estrutura
 insert into TB_ESTRUTURA_PATIO (id_patio, coordenada_x_estrutura, 
 coordenada_y_estrutura, tamanho_estrutura, rotacao_estrutura) 
     values ('5', 12, 10, 50, 90);
@@ -95,8 +103,7 @@ insert into TB_ESTRUTURA_PATIO (id_patio, coordenada_x_estrutura,
 coordenada_y_estrutura, tamanho_estrutura, rotacao_estrutura) 
     values ('5', 120, 100, 65, 180);
     
-    
-//motos
+
 insert into TB_MOTO (id_moto, id_patio, placa_moto, modelo_moto, status_moto, chassi_moto, iot_moto)
     values ('1', '5', 'XXXX-777', 'MOTTU-POP', 'PRONTA_ALUGUEL', 'ID-CHASSI', 'ID-IOT');
 
@@ -112,7 +119,7 @@ insert into TB_MOTO (id_moto, id_patio, placa_moto, modelo_moto, status_moto, ch
 insert into TB_MOTO (id_moto, id_patio, placa_moto, modelo_moto, status_moto, chassi_moto, iot_moto)
     values ('5', '5', 'OOOO-544', 'MOTTU-POP', 'PRONTA_ALUGUEL', 'ID-CHASSI', 'ID-IOT');
     
-//localizacao moto
+
 insert into TB_LOCALIZACAO_MOTO (id_moto, latitude_moto, longitude_moto)
     values ('1', '1232334132', '2312321312');
 
@@ -128,24 +135,34 @@ insert into TB_LOCALIZACAO_MOTO (id_moto, latitude_moto, longitude_moto)
 insert into TB_LOCALIZACAO_MOTO (id_moto, latitude_moto, longitude_moto)
     values ('5', '3812738129', '8904819441');
     
-//evento
-insert into TB_EVENTO (id_moto, descricao_evento, cor_evento, data_hora_evento, visualizado_evento)
-    values ('1', 'Moto de id 1 está em manutenção!', 'CINZA', TIMESTAMP '2025-04-25 10:00:00', 1);
+
+insert into TB_EVENTO (id_evento, descricao_evento, cor_evento)
+    values ('1', 'Moto em manutenção!', 'CINZA');
     
-insert into TB_EVENTO (id_moto, descricao_evento, cor_evento, data_hora_evento, visualizado_evento)
-    values ('1', 'Moto de id 1 está pronta para ser alugada!', 'VERDE', TIMESTAMP '2025-04-25 12:00:00', 1);
+insert into TB_EVENTO (id_evento, descricao_evento, cor_evento)
+    values ('2', 'Moto pronta para ser alugada!', 'VERDE');
     
-insert into TB_EVENTO (id_moto, descricao_evento, cor_evento, data_hora_evento, visualizado_evento)
-    values ('2', 'Moto de id 2 está pronta para ser alugada!', 'VERDE', TIMESTAMP '2025-04-26 09:00:00', 1);
+insert into TB_EVENTO (id_evento, descricao_evento, cor_evento)
+    values ('3', 'Moto chegou sem placa!', 'VERMELHO');
     
-insert into TB_EVENTO (id_moto, descricao_evento, cor_evento, data_hora_evento, visualizado_evento)
-    values ('3', 'Moto de id 3 chegou sem placa!', 'VERMELHO', TIMESTAMP '2025-04-27 15:30:00', 0);
+
+insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
+    values ('1', '1', TIMESTAMP '2025-04-25 10:00:00', 1);
     
-insert into TB_EVENTO (id_moto, descricao_evento, cor_evento, data_hora_evento, visualizado_evento)
-    values ('3', 'Moto de id 3 está pronta para ser alugada!', 'VERDE', TIMESTAMP '2025-04-27 17:30:00', 0);
+insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
+    values ('1', '2', TIMESTAMP '2025-04-25 12:00:00', 1);
+    
+insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
+    values ('2', '2', TIMESTAMP '2025-04-26 09:00:00', 1);
+    
+insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
+    values ('3', '3', TIMESTAMP '2025-04-27 15:30:00', 0);
+    
+insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
+    values ('3', '2', TIMESTAMP '2025-04-27 17:30:00', 0);
 
 
-// cursor para consulta 1: motos com suas localizacoes e qtd eventos
+-- Motos com suas localizações e quantidade de eventos
 declare
     cursor c_motos_localizacoes_eventos is
         select
@@ -154,10 +171,10 @@ declare
             m.modelo_moto,
             lm.latitude_moto,
             lm.longitude_moto,
-            count(e.id_moto) as quantidade_eventos
+            count(em.id_moto) as quantidade_eventos
         from TB_MOTO m
         inner join TB_LOCALIZACAO_MOTO lm on m.id_moto = lm.id_moto
-        left join TB_EVENTO e on m.id_moto = e.id_moto
+        left join TB_EVENTO_MOTO em on m.id_moto = em.id_moto
         group by m.id_moto, m.placa_moto, m.modelo_moto, lm.latitude_moto, lm.longitude_moto
         order by quantidade_eventos desc;
             
@@ -179,7 +196,7 @@ begin
 end;
 
 
-// cursor para consulta 2: pátios com estruturas e motos
+-- Pátios com estruturas e motos
 declare
     cursor c_patios_estruturas_motos is
         select 
@@ -199,7 +216,6 @@ begin
     dbms_output.put_line('Pátio | Estrut Criada  | Qtd Estrut  | Qtd motos');
     dbms_output.put_line('------------------------------------------------');
     for rec in c_patios_estruturas_motos loop
-        -- formatando cada linha de resultado
         v_linha := 
             rpad(rec.id_patio, 5) || ' | ' ||
             rpad(to_char(rec.estrutura_criada_patio), 14) || ' | ' ||
@@ -211,7 +227,7 @@ begin
 end;
 
 
-// relatorio que le a linha anterior e a proxima
+-- Relatório que lê a linha anterior e a próxima
 declare
     cursor c_motos is
         select
@@ -236,17 +252,3 @@ begin
         dbms_output.put_line(v_linha);
     end loop;
 end;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
