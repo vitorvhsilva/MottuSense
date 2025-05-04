@@ -42,29 +42,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="visualizado_evento" id="63EEF4AD-9EE9-3755-4F8A-D74D6AB33ACC">
-<createdBy>vitor</createdBy>
-<createdTime>2025-04-27 21:28:57 UTC</createdTime>
-<ownerDesignName>modelagem_c#</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="data_hora_evento" id="2C670201-B93C-2AD0-2F58-32AE7D474FD9">
-<createdBy>vitor</createdBy>
-<createdTime>2025-04-27 21:26:43 UTC</createdTime>
-<ownerDesignName>modelagem_c#</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="48E9B334-872C-A424-9AD0-5965554B2A9E" name="tb_evento_id_evento_pk">
