@@ -15,15 +15,14 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_moto" id="CC894E12-AE00-80A0-0A4D-67373CEF5E1E">
+<Attribute name="id_evento" id="F0DCC460-4C3A-F180-12C2-06A01CB30166">
 <createdBy>vitor</createdBy>
-<createdTime>2025-04-27 19:59:46 UTC</createdTime>
-<generatorID>3A13A196-88F1-0C9C-CA7F-8CA5957D7972</generatorID>
+<createdTime>2025-05-04 20:43:10 UTC</createdTime>
 <ownerDesignName>modelagem_c#</ownerDesignName>
 <engineerTo>
 <item key="7946CC3E-9075-6CE5-59DF-8CBAB38F0921" value="true"/>
 </engineerTo>
-<referedAttribute>B3667997-618C-D80E-108C-D24E3622DA06</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

@@ -8,10 +8,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_moto" id="F716A68F-BD2F-EE61-7DB2-589675EC6155">
+<Column name="id_moto" id="2637CE5B-1313-AD22-3452-E3BFA47A13C4">
 <createdBy>vitor</createdBy>
-<createdTime>2025-04-27 20:33:54 UTC</createdTime>
-<generatorID>4BCC35CE-4046-2054-7B12-4A9259856D41</generatorID>
+<createdTime>2025-05-04 20:41:32 UTC</createdTime>
 <ownerDesignName>modelagem_c#</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,7 +19,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="85FD7E54-7FF8-4288-B3FD-B989D4D88291" referredColumn="4F9C6A3A-6105-AE57-11DE-75B001FA041A"/>
+<colAssociation fkAssociation="66F77DF9-F39F-8E77-481F-4434B9F7A761" referredColumn="4F9C6A3A-6105-AE57-11DE-75B001FA041A"/>
 </associations>
 </Column>
 <Column name="latitude_moto" id="6D65B19D-FB8A-08D9-4E3B-EFCB709ADBB5">
@@ -49,15 +48,26 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FBDC8DC9-89F1-6B6A-9204-691A844C9088" name="tb_localizacao_moto_id_moto_fk">
+<ind_PK_UK id="39AC5C9A-6179-8B8E-3237-EA2FE973F843" name="tb_locali_moto_id_moto_pk">
 <createdBy>vitor</createdBy>
-<createdTime>2025-04-27 20:33:54 UTC</createdTime>
-<generatorID>DCFDB80E-2C8F-7999-ADF1-CB943D3ADC34</generatorID>
+<createdTime>2025-05-04 20:41:52 UTC</createdTime>
+<ownerDesignName>modelagem_c#</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2637CE5B-1313-AD22-3452-E3BFA47A13C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E09999FB-D1EB-4118-B0CC-387BE17FC96F" name="tb_locali_moto_id_moto_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-05-04 20:41:32 UTC</createdTime>
+<generatorID>4E422E2B-4A42-6C43-B6E0-9C428F3CC359</generatorID>
 <ownerDesignName>modelagem_c#</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F716A68F-BD2F-EE61-7DB2-589675EC6155"/>
+<colUsage columnID="2637CE5B-1313-AD22-3452-E3BFA47A13C4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

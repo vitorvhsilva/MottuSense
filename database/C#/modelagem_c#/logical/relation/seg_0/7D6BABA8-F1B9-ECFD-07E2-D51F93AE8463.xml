@@ -1,16 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="3A13A196-88F1-0C9C-CA7F-8CA5957D7972">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="7D6BABA8-F1B9-ECFD-07E2-D51F93AE8463">
 <createdBy>vitor</createdBy>
-<createdTime>2025-04-27 19:59:46 UTC</createdTime>
+<createdTime>2025-05-04 20:40:39 UTC</createdTime>
 <ownerDesignName>modelagem_c#</ownerDesignName>
 <engineerTo>
-<item key="52983C8C-7759-325A-DE8B-9E4E549501E0" value="true"/>
+<item key="7946CC3E-9075-6CE5-59DF-8CBAB38F0921" value="true"/>
 </engineerTo>
-<sourcePk>4E422E2B-4A42-6C43-B6E0-9C428F3CC359</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>C7E3AE19-F0A7-486E-1720-DE07A55D1114</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>ABCEEE04-28D4-DEDA-0583-45008678DA83</targetEntity>
