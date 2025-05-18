@@ -1,6 +1,15 @@
 set verify off;
 set serveroutput on;
 
+/*
+deletar todas as tabelas se necessario
+BEGIN
+  FOR cur_rec IN (SELECT table_name FROM user_tables) LOOP
+    EXECUTE IMMEDIATE 'DROP TABLE "' || cur_rec.table_name || '" CASCADE CONSTRAINTS';
+  END LOOP;
+END;
+*/
+
 drop table TB_ESTRUTURA_PATIO cascade constraints;
 drop table TB_LOCALIZACAO_MOTO cascade constraints;
 drop table TB_EVENTO_MOTO cascade constraints;
@@ -67,100 +76,101 @@ create table TB_LOCALIZACAO_MOTO (
         REFERENCES TB_MOTO(id_moto)
 );
 
-insert into TB_PATIO (id_patio, id_filial, estrutura_criada_patio) 
-    values ('1', '1', 0);
+begin
+    insert into TB_PATIO (id_patio, id_filial, estrutura_criada_patio) 
+        values ('1', '1', 0);
+        
+    insert into TB_PATIO (id_patio, id_filial, estrutura_criada_patio) 
+        values ('2', '2', 0);
+        
+    insert into TB_PATIO (id_patio, id_filial, estrutura_criada_patio) 
+        values ('3', '3', 0);
+        
+    insert into TB_PATIO (id_patio, id_filial, estrutura_criada_patio) 
+        values ('4', '4', 0);
+        
+    insert into TB_PATIO (id_patio, id_filial, estrutura_criada_patio) 
+        values ('5', '5', 1);
     
-insert into TB_PATIO (id_patio, id_filial, estrutura_criada_patio) 
-    values ('2', '2', 0);
     
-insert into TB_PATIO (id_patio, id_filial, estrutura_criada_patio) 
-    values ('3', '3', 0);
+    insert into TB_ESTRUTURA_PATIO (id_patio, coordenada_x_estrutura, 
+    coordenada_y_estrutura, tamanho_estrutura, rotacao_estrutura) 
+        values ('5', 12, 10, 50, 90);
     
-insert into TB_PATIO (id_patio, id_filial, estrutura_criada_patio) 
-    values ('4', '4', 0);
+    insert into TB_ESTRUTURA_PATIO (id_patio, coordenada_x_estrutura, 
+    coordenada_y_estrutura, tamanho_estrutura, rotacao_estrutura) 
+        values ('5', 20, 0, 100, 180);
+        
+    insert into TB_ESTRUTURA_PATIO (id_patio, coordenada_x_estrutura, 
+    coordenada_y_estrutura, tamanho_estrutura, rotacao_estrutura) 
+        values ('5', 20, 100, 100, 180);
+        
+    insert into TB_ESTRUTURA_PATIO (id_patio, coordenada_x_estrutura, 
+    coordenada_y_estrutura, tamanho_estrutura, rotacao_estrutura) 
+        values ('5', 20, 0, 100, 90);
+        
+    insert into TB_ESTRUTURA_PATIO (id_patio, coordenada_x_estrutura, 
+    coordenada_y_estrutura, tamanho_estrutura, rotacao_estrutura) 
+        values ('5', 120, 100, 65, 180);
+        
     
-insert into TB_PATIO (id_patio, id_filial, estrutura_criada_patio) 
-    values ('5', '5', 1);
-
-
-insert into TB_ESTRUTURA_PATIO (id_patio, coordenada_x_estrutura, 
-coordenada_y_estrutura, tamanho_estrutura, rotacao_estrutura) 
-    values ('5', 12, 10, 50, 90);
-
-insert into TB_ESTRUTURA_PATIO (id_patio, coordenada_x_estrutura, 
-coordenada_y_estrutura, tamanho_estrutura, rotacao_estrutura) 
-    values ('5', 20, 0, 100, 180);
+    insert into TB_MOTO (id_moto, id_patio, placa_moto, modelo_moto, status_moto, chassi_moto, iot_moto)
+        values ('1', '5', 'XXXX-777', 'MOTTU-POP', 'PRONTA_ALUGUEL', 'ID-CHASSI', 'ID-IOT');
     
-insert into TB_ESTRUTURA_PATIO (id_patio, coordenada_x_estrutura, 
-coordenada_y_estrutura, tamanho_estrutura, rotacao_estrutura) 
-    values ('5', 20, 100, 100, 180);
+    insert into TB_MOTO (id_moto, id_patio, placa_moto, modelo_moto, status_moto, chassi_moto, iot_moto)
+        values ('2', '5', 'AAAA-123', 'MOTTU-SPORT', 'PRONTA_ALUGUEL', 'ID-CHASSI', 'ID-IOT');
+        
+    insert into TB_MOTO (id_moto, id_patio, placa_moto, modelo_moto, status_moto, chassi_moto, iot_moto)
+        values ('3', '5', 'FFFF-321', 'MOTTU-E', 'PRONTA_ALUGUEL', 'ID-CHASSI', 'ID-IOT');
+        
+    insert into TB_MOTO (id_moto, id_patio, placa_moto, modelo_moto, status_moto, chassi_moto, iot_moto)
+        values ('4', '5', 'YYYY-453', 'MOTTU-POP', 'SEM_PLACA', 'ID-CHASSI', 'ID-IOT');
+        
+    insert into TB_MOTO (id_moto, id_patio, placa_moto, modelo_moto, status_moto, chassi_moto, iot_moto)
+        values ('5', '5', 'OOOO-544', 'MOTTU-POP', 'PRONTA_ALUGUEL', 'ID-CHASSI', 'ID-IOT');
+        
     
-insert into TB_ESTRUTURA_PATIO (id_patio, coordenada_x_estrutura, 
-coordenada_y_estrutura, tamanho_estrutura, rotacao_estrutura) 
-    values ('5', 20, 0, 100, 90);
+    insert into TB_LOCALIZACAO_MOTO (id_moto, latitude_moto, longitude_moto)
+        values ('1', '1232334132', '2312321312');
     
-insert into TB_ESTRUTURA_PATIO (id_patio, coordenada_x_estrutura, 
-coordenada_y_estrutura, tamanho_estrutura, rotacao_estrutura) 
-    values ('5', 120, 100, 65, 180);
+    insert into TB_LOCALIZACAO_MOTO (id_moto, latitude_moto, longitude_moto)
+        values ('2', '3231312332', '8928101011');
+        
+    insert into TB_LOCALIZACAO_MOTO (id_moto, latitude_moto, longitude_moto)
+        values ('3', '8748041278', '3210937811');
+        
+    insert into TB_LOCALIZACAO_MOTO (id_moto, latitude_moto, longitude_moto)
+        values ('4', '2189038012', '2301837218');
+        
+    insert into TB_LOCALIZACAO_MOTO (id_moto, latitude_moto, longitude_moto)
+        values ('5', '3812738129', '8904819441');
+        
     
-
-insert into TB_MOTO (id_moto, id_patio, placa_moto, modelo_moto, status_moto, chassi_moto, iot_moto)
-    values ('1', '5', 'XXXX-777', 'MOTTU-POP', 'PRONTA_ALUGUEL', 'ID-CHASSI', 'ID-IOT');
-
-insert into TB_MOTO (id_moto, id_patio, placa_moto, modelo_moto, status_moto, chassi_moto, iot_moto)
-    values ('2', '5', 'AAAA-123', 'MOTTU-SPORT', 'PRONTA_ALUGUEL', 'ID-CHASSI', 'ID-IOT');
+    insert into TB_EVENTO (id_evento, descricao_evento, cor_evento)
+        values ('1', 'Moto em manutenção!', 'CINZA');
+        
+    insert into TB_EVENTO (id_evento, descricao_evento, cor_evento)
+        values ('2', 'Moto pronta para ser alugada!', 'VERDE');
+        
+    insert into TB_EVENTO (id_evento, descricao_evento, cor_evento)
+        values ('3', 'Moto chegou sem placa!', 'VERMELHO');
+        
     
-insert into TB_MOTO (id_moto, id_patio, placa_moto, modelo_moto, status_moto, chassi_moto, iot_moto)
-    values ('3', '5', 'FFFF-321', 'MOTTU-E', 'PRONTA_ALUGUEL', 'ID-CHASSI', 'ID-IOT');
-    
-insert into TB_MOTO (id_moto, id_patio, placa_moto, modelo_moto, status_moto, chassi_moto, iot_moto)
-    values ('4', '5', 'YYYY-453', 'MOTTU-POP', 'SEM_PLACA', 'ID-CHASSI', 'ID-IOT');
-    
-insert into TB_MOTO (id_moto, id_patio, placa_moto, modelo_moto, status_moto, chassi_moto, iot_moto)
-    values ('5', '5', 'OOOO-544', 'MOTTU-POP', 'PRONTA_ALUGUEL', 'ID-CHASSI', 'ID-IOT');
-    
-
-insert into TB_LOCALIZACAO_MOTO (id_moto, latitude_moto, longitude_moto)
-    values ('1', '1232334132', '2312321312');
-
-insert into TB_LOCALIZACAO_MOTO (id_moto, latitude_moto, longitude_moto)
-    values ('2', '3231312332', '8928101011');
-    
-insert into TB_LOCALIZACAO_MOTO (id_moto, latitude_moto, longitude_moto)
-    values ('3', '8748041278', '3210937811');
-    
-insert into TB_LOCALIZACAO_MOTO (id_moto, latitude_moto, longitude_moto)
-    values ('4', '2189038012', '2301837218');
-    
-insert into TB_LOCALIZACAO_MOTO (id_moto, latitude_moto, longitude_moto)
-    values ('5', '3812738129', '8904819441');
-    
-
-insert into TB_EVENTO (id_evento, descricao_evento, cor_evento)
-    values ('1', 'Moto em manutenção!', 'CINZA');
-    
-insert into TB_EVENTO (id_evento, descricao_evento, cor_evento)
-    values ('2', 'Moto pronta para ser alugada!', 'VERDE');
-    
-insert into TB_EVENTO (id_evento, descricao_evento, cor_evento)
-    values ('3', 'Moto chegou sem placa!', 'VERMELHO');
-    
-
-insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
-    values ('1', '1', TIMESTAMP '2025-04-25 10:00:00', 1);
-    
-insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
-    values ('1', '2', TIMESTAMP '2025-04-25 12:00:00', 1);
-    
-insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
-    values ('2', '2', TIMESTAMP '2025-04-26 09:00:00', 1);
-    
-insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
-    values ('3', '3', TIMESTAMP '2025-04-27 15:30:00', 0);
-    
-insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
-    values ('3', '2', TIMESTAMP '2025-04-27 17:30:00', 0);
-
+    insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
+        values ('1', '1', TIMESTAMP '2025-04-25 10:00:00', 1);
+        
+    insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
+        values ('1', '2', TIMESTAMP '2025-04-25 12:00:00', 1);
+        
+    insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
+        values ('2', '2', TIMESTAMP '2025-04-26 09:00:00', 1);
+        
+    insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
+        values ('3', '3', TIMESTAMP '2025-04-27 15:30:00', 0);
+        
+    insert into TB_EVENTO_MOTO (id_moto, id_evento, data_hora_evento, visualizado_evento)
+        values ('3', '2', TIMESTAMP '2025-04-27 17:30:00', 0);
+end;
 
 -- Motos com suas localizações e quantidade de eventos
 declare
