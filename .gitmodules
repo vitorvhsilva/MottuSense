@@ -7,3 +7,6 @@
 [submodule "MottuSense-ReactNative"]
 	path = MottuSense-ReactNative
 	url = https://github.com/vitorvhsilva/MottuSense-ReactNative
+[submodule "MottuSense-IoT"]
+	path = MottuSense-IoT
+	url = https://github.com/vitorvhsilva/MottuSense-IoT

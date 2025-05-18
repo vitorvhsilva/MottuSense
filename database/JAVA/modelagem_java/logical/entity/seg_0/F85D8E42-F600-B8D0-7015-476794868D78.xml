@@ -4,7 +4,7 @@
 <createdTime>2025-04-20 03:45:21 UTC</createdTime>
 <ownerDesignName>modelagem_java</ownerDesignName>
 <engineerTo>
-<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+<item key="9FCA2CBB-084F-06A4-9CB5-493E5165A0DD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-04-20 03:46:30 UTC</createdTime>
 <ownerDesignName>modelagem_java</ownerDesignName>
 <engineerTo>
-<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+<item key="9FCA2CBB-084F-06A4-9CB5-493E5165A0DD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,9 +32,23 @@
 <createdTime>2025-04-20 03:49:01 UTC</createdTime>
 <ownerDesignName>modelagem_java</ownerDesignName>
 <engineerTo>
-<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+<item key="9FCA2CBB-084F-06A4-9CB5-493E5165A0DD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="C2C1894F-3CF2-52A4-D387-3802A167B5C4">
+<createdBy>vitor</createdBy>
+<createdTime>2025-05-18 05:46:47 UTC</createdTime>
+<generatorID>B32FE388-2C66-C27C-A296-4EBA41CB2F1D</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<engineerTo>
+<item key="9FCA2CBB-084F-06A4-9CB5-493E5165A0DD" value="true"/>
+</engineerTo>
+<referedAttribute>FD687ADC-D284-90EE-A3CE-2DF2319AFD15</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -47,7 +61,7 @@
 <createdTime>2025-04-20 03:50:46 UTC</createdTime>
 <ownerDesignName>modelagem_java</ownerDesignName>
 <engineerTo>
-<item key="0D6CDC07-72D9-5BE6-9415-2856136F109B" value="true"/>
+<item key="9FCA2CBB-084F-06A4-9CB5-493E5165A0DD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
