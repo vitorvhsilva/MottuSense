@@ -1,0 +1,1 @@
+az vm open-port --resource-group rg-dotNet --name vm-dotNet --port 7050 --priority 200
