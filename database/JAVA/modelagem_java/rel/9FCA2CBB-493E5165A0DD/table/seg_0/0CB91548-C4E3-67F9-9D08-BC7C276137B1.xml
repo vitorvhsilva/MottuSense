@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CB91548-C4E3-67F9-9D08-BC7C276137B1" name="TB_USUARIO_FILIAL">
+<createdBy>vitor</createdBy>
+<createdTime>2025-05-19 01:05:55 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario_filial" id="FF69C1A0-373C-848D-08DC-AE5C9C7784BB">
+<createdBy>vitor</createdBy>
+<createdTime>2025-05-19 01:06:57 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="CBC6FB04-8857-02B4-56EA-ACB6C160FDC2">
+<createdBy>vitor</createdBy>
+<createdTime>2025-05-19 01:06:32 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="260E15FC-4F77-7BDF-CA87-9DADCCD11F54" referredColumn="9F9642C5-6395-E136-84A1-DF592A9E3DCF"/>
+</associations>
+</Column>
+<Column name="id_filial" id="7EC6DE9C-5AEF-56E1-223F-D6B255D5DF06">
+<createdBy>vitor</createdBy>
+<createdTime>2025-05-19 01:06:35 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E3F085A-471F-49B2-DF77-7B7618C548AE" referredColumn="FA1D3882-5B90-83D6-8CA6-350A690AFF60"/>
+</associations>
+</Column>
+<Column name="usuario_tem_acesso_filial" id="730F5855-058C-AB85-7BF2-219D44FD49CB">
+<createdBy>vitor</createdBy>
+<createdTime>2025-05-19 01:06:16 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E4BF942-5390-DF05-06F6-803106F8FB15" name="tb_usuario_filial_id_usuario_filial_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-05-19 01:08:09 UTC</createdTime>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF69C1A0-373C-848D-08DC-AE5C9C7784BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD324342-9FCB-0C5F-C33D-C0CBF499FC9B" name="tb_usuario_filial_id_usuario_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-05-19 01:06:32 UTC</createdTime>
+<generatorID>E5F9B77F-24EF-1328-2B76-AAD130EB5DDB</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBC6FB04-8857-02B4-56EA-ACB6C160FDC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACAD3D9C-0870-8948-E78D-5B53775B2094" name="tb_usuario_filial_id_filial_fk">
+<createdBy>vitor</createdBy>
+<createdTime>2025-05-19 01:06:35 UTC</createdTime>
+<generatorID>B4D5B561-F0A8-62AE-9F7F-A277F0C9A453</generatorID>
+<ownerDesignName>modelagem_java</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EC6DE9C-5AEF-56E1-223F-D6B255D5DF06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

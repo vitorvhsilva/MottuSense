@@ -23,7 +23,6 @@
 <createdTime>2025-04-27 20:33:54 UTC</createdTime>
 <generatorID>8DED2A4E-BA22-7A5A-48BA-944059A411B4</generatorID>
 <ownerDesignName>modelagem_c#</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -35,7 +34,6 @@
 <createdTime>2025-04-27 20:33:54 UTC</createdTime>
 <generatorID>AF2A573F-12C4-8494-FB04-C97F7C897FBA</generatorID>
 <ownerDesignName>modelagem_c#</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

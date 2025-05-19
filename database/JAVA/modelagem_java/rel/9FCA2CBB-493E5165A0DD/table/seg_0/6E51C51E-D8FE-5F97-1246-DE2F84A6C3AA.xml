@@ -19,20 +19,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_usuario" id="1A9C732A-9882-6987-FB88-9CA8A445B944">
-<createdBy>vitor</createdBy>
-<createdTime>2025-05-18 05:46:09 UTC</createdTime>
-<ownerDesignName>modelagem_java</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4A824B29-F54B-3E52-7958-019975268E46" referredColumn="9F9642C5-6395-E136-84A1-DF592A9E3DCF"/>
-</associations>
-</Column>
 <Column name="nome_filial" id="AF5A7841-6FCD-5C3B-B2E6-ACD520ED33D3">
 <createdBy>vitor</createdBy>
 <createdTime>2025-04-27 20:37:25 UTC</createdTime>
@@ -57,17 +43,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FA1D3882-5B90-83D6-8CA6-350A690AFF60"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="9DC08302-069A-6188-9C76-99F21B01AEFA" name="tb_filial_id_usuario_fk">
-<createdBy>vitor</createdBy>
-<createdTime>2025-05-18 05:46:09 UTC</createdTime>
-<generatorID>E5F9B77F-24EF-1328-2B76-AAD130EB5DDB</generatorID>
-<ownerDesignName>modelagem_java</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1A9C732A-9882-6987-FB88-9CA8A445B944"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
